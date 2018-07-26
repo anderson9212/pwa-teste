@@ -1,7 +1,9 @@
-let cacheName = 'brdefender-v.0.0.1';
+let cacheName = 'brdefender-v.0.0.2';
 let filesToCache = [
     './',
     'index.html',
+    'pagina2.html',
+    'pagina3.html',
     'css/colors.css',
     'css/styles.css',
     'js/array.observe.polyfill.js',
