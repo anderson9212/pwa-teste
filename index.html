@@ -11,10 +11,27 @@
     <link rel="stylesheet" href="css/colors.css">
 
     <link rel="manifest" href="manifest.json">
+    
+    
+        <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyC7c164BSg75dUx4CNUqmo4exYD4JxJnW8",
+            authDomain: "pwa-teste-8e267.firebaseapp.com",
+            databaseURL: "https://pwa-teste-8e267.firebaseio.com",
+            projectId: "pwa-teste-8e267",
+            storageBucket: "",
+            messagingSenderId: "826910115015"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
 
     <script src="js/object.observe.polyfill.js"></script>
     <script src="js/array.observe.polyfill.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/push.js"></script>
 
     <meta name="theme-color" content="#607d8b">
 </head>
